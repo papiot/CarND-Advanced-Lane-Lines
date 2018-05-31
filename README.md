@@ -141,4 +141,14 @@ Here's a [link to my video result](./test_videos_output/project_video_result.mp4
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+The approach I took is the following:
+- Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
+- Apply a distortion correction to raw images.
+- Use color transforms, gradients, etc., to create a thresholded binary image.
+- Apply a perspective transform to rectify binary image ("birds-eye view").
+- Detect lane pixels and fit to find the lane boundary.
+- Determine the curvature of the lane and vehicle position with respect to center.
+- Warp the detected lane boundaries back onto the original image.
+- Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+
+This works well when the road is well lit and when the lanes are clearly delimited, however, this is not going to work if there's snow on the ground for example.
