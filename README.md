@@ -24,8 +24,8 @@ The goals / steps of this project are the following:
 [image4]: output_images/distorsion_transform.png "Distorsion Transform"
 [image5]: output_images/distorsion_transform_binary.png "Distorsion Transform Binary"
 [image6]: output_images/histogram.png "Histogram"
-[image7]: output_images/histogram.png "Poly 1"
-[image8]: output_images/histogram.png "Poly 2"
+[image7]: output_images/poly1.png "Poly 1"
+[image8]: output_images/poly2.png "Poly 2"
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
