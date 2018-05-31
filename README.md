@@ -23,6 +23,9 @@ The goals / steps of this project are the following:
 [image3]: output_images/combined_threshold.png "Combined Threshold"
 [image4]: output_images/distorsion_transform.png "Distorsion Transform"
 [image5]: output_images/distorsion_transform_binary.png "Distorsion Transform Binary"
+[image6]: output_images/histogram.png "Histogram"
+[image7]: output_images/histogram.png "Poly 1"
+[image8]: output_images/histogram.png "Poly 2"
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -57,7 +60,7 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used a combination of gradient thresholds to generate a binary image (thresholding steps at lines # through # in `another_file.py`).  Here's an example of my output for this step.  
+I used a combination of gradient thresholds to generate a binary image (thresholding steps can be seen in the jupyter notebook).  Here's an example of my output for this step.  
 I first used the Abstract Sobel Operator Threshold, then Magnitude Threshold then Direction Threshold.
 Finally, I combined them all into a Combined Threshold Binary Image.
 
@@ -100,9 +103,17 @@ I then verified the perspective transform on the binary image as well.
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this:
+The code for the 2nd order polynomial fitting is in cells 13-18 in the notebook. The results are as follows:
 
-![alt text][image5]
+First, I took the histogram:
+
+![alt text][image6]
+
+Here are the results:
+
+![alt text][image7]
+![alt text][image8]
+
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
