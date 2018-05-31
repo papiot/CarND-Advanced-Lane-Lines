@@ -26,6 +26,7 @@ The goals / steps of this project are the following:
 [image6]: output_images/histogram.png "Histogram"
 [image7]: output_images/poly1.png "Poly 1"
 [image8]: output_images/poly2.png "Poly 2"
+[image9]: output_images/poly2.png "Final"
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -121,9 +122,10 @@ I did this in lines # through # in my code in `my_other_file.py`
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+I implemented this in the last cell. The function is also used to create the video.
+Here is an example of my result on a test image:
 
-![alt text][image6]
+![alt text][image9]
 
 ---
 
@@ -131,7 +133,7 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./test_videos_output/project_video_result.mp4)
 
 ---
 
