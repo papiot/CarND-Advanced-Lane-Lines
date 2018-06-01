@@ -152,3 +152,5 @@ The approach I took is the following:
 - Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 This works well when the road is well lit and when the lanes are clearly delimited, however, this is not going to work if there's snow on the ground for example.
+
+The first time around the algorithm was having pretty big trouble in the shaded sections of the video. To solve this, I added the color threshold. This made it possible to detect the lanes better under those conditions.
